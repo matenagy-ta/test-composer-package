@@ -1,0 +1,12 @@
+{
+    "name": "mypackage/test-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MyPackage\\TestComposerPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
